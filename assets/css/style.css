@@ -1,0 +1,25 @@
+#logo{
+    border: 2px solid red;
+    flex: 20%;
+}
+#site-text{
+    border: 2px solid brown;
+    flex: 40%;
+}
+#navigation{
+    border: 2px solid black;
+flex: 40%;
+}
+#parent_section{
+    display: flex;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
