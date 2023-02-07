@@ -1,25 +1,39 @@
 #logo{
-    border: 2px solid red;
+    border: 2px solid rgb(0, 0, 0);
     flex: 20%;
 }
 #site-text{
-    border: 2px solid brown;
-    flex: 40%;
+
 }
 #navigation{
     border: 2px solid black;
-flex: 40%;
+flex: 20%;
 }
 #parent_section{
     display: flex;
     width: 100%;
+    
 }
 ul {
     list-style-type: none;
-    text-align: right;
+    text-align: center;
 }
 
 ul li {
     display: inline-block;
     margin-left: 25px;
+}
+
+#footer-nav{
+justify-content: right;
+width: 100%;
+}
+
+#contact-me{
+    border-right: 5px solid black;
+    width: 10%;
+}
+
+#nav{
+    justify-content: flex-end;
 }
